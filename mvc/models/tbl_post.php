@@ -12,6 +12,7 @@ class tbl_post extends DB{
 		$qr = "SELECT * FROM tbl_post WHERE tbl_post.name LIKE '%$name%' ORDER BY id DESC";
 		return mysqli_query($this->con, $qr);
 	}
+	// test
 	public function Search($inputSearch){
 		$qr = "SELECT * FROM tbl_post WHERE tbl_post.title LIKE '%$inputSearch%' LIMIT 6";
 		return mysqli_query($this->con, $qr);
