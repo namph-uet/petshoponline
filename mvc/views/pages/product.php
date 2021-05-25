@@ -5,9 +5,9 @@
 			<?php include("./mvc/views/partials/admin-menu.php"); ?>  
 			<div class="p-2" style="width: calc(100% - 220px);height: 100%;">
 				<div class="m-0 pl-2 pt-2" style="width: 100%">
-					<p class="font-weight-bold mb-1 float-left" style="font-size: 150%">Product Manage</p>	
+					<p class="font-weight-bold mb-1 float-left" style="font-size: 150%">Quản lý sản phẩm</p>	
 					<a href="../AddProduct/Add">
-						<div class="btn bg text-white float-right mr-4">Add product</div>
+						<div class="btn bg text-white float-right mr-4">Thêm sản phẩm</div>
 					</a>	
 					<div style="clear: both;"></div>
 				</div>

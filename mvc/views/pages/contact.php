@@ -3,7 +3,7 @@
     class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
 >
     <head>
-        <title>Contact Us – CreativeMob, Inc. – Digital Marketing and Technology</title>
+        <title>Liên hệ với chúng tối! Hiệu thuốc 3 chị em</title>
         <meta name="keywords" content="drivers ed" />
         <meta name="description" content="We invite you to contact CreativeMob today. Creating is in our blood and we'd love to conceptualize a marketing strategy that works for your company." />
         <meta charset="utf-8" />
@@ -3952,11 +3952,11 @@
             <section class="top">
                 <div class="inner">
                     <div class="chunk-right">
-                        <h1 class="small blue">Contact Us</h1>
-                        <h2 class="subtitle black">Let's Start Creating!</h2>
-                        <p class="blue special_contact-text">Fill out the fields on the left and send us a message. Look forward to hearing from you!</p>
+                        <h1 class="small blue">Liên hệ với chúng tôi</h1>
+                        <h2 class="subtitle black">Bắt đầu tạo!</h2>
+                        <p class="blue special_contact-text">Điền thông tin vào phiếu bên trái và gửi cho chúng tôi. Chúng tôi luôn cố gắng lắng nghe ý kiến phản hồi từ bạn!</p>
                         <p class="large blue">
-                            <strong>Call Us Directly! <a class="phone" href="tel:0946957269">0946957269</a></strong>
+                            <strong>Gọi trực tiếp cho chúng tôi! <a class="phone" href="tel:0946957269">0946957269</a></strong>
                         </p>
                     </div>
 
@@ -3965,7 +3965,7 @@
                             <div class="envelope-back"></div>
                             <div class="letter">
                                 <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
-                                <label for="name">Name</label>
+                                <label for="name">Họ và tên</label>
                                 <input type="text" id="name" name="name" />
                                 <div class="frm-ok name" style="left: 427px; top: 117px;"></div>
                                 <br />
@@ -3973,49 +3973,21 @@
                                 <input type="text" id="email" name="email" />
                                 <div class="frm-ok email" style="left: 427px; top: 203px;"></div>
                                 <br />
-                                <label for="phone">Telephone</label>
+                                <label for="phone">Điện thoại</label>
                                 <input type="text" id="phone" name="phone" />
                                 <div class="frm-ok phone" style="left: 427px; top: 289px;"></div>
                                 <br />
-                                <label for="message">Message</label>
+                                <label for="message">Tin nhắn</label>
                                 <textarea id="message" name="message"></textarea>
                                 <div class="frm-ok message" style="left: 427px; top: 377px;"></div>
                                 <br />
                             </div>
                             <div class="envelope-front"></div>
-                            <button class="orange with-blue-text">SEND MESSAGE</button>
+                            <button class="orange with-blue-text">Gửi tin nhắn</button>
                         </form>
                     </div>
                 </div>
             </section>
-        <!-- DESKTOP MENU -->
-        <div class="menu-desktop scroll-top-zero">
-            <ul>
-                <li class="home"><a href="/">HOME</a></li>
-                <li class="about"><a href="/about.html">ABOUT</a></li>
-                <li class="showroom"><a href="http://creative-mob.com/showroom/">SHOWROOM</a></li>
-                <li class="services"><a href="/services.html">SERVICES</a></li>
-                <li class="contact"><a href="/contact.html">CONTACT</a></li>
-            </ul>
-            <div class="ribbon-left"></div>
-            <div class="ribbon-right"></div>
-        </div>
-
-        <div class="overlay-window overlay-hugeinc">
-            <div class="contact-window">
-                <div class="close-window"><img src="http://creative-mob.com/img/common/close-window.svg" /></div>
-                <div class="window-form">
-                    <h3>Let's Start Creating!</h3>
-                    <p>Fill out the fields below and send us a message. Look forward to hearing from you!</p>
-                    <form method="POST">
-                        <input type="text" name="w_name" placeholder="Name" />
-                        <input type="email" name="w_email" placeholder="Email" />
-                        <textarea name="w_message" placeholder="Message"></textarea>
-                        <button class="button send-msg">SEND MESSAGE</button>
-                    </form>
-                </div>
-            </div>
-        </div>
         <script type="text/javascript" src="js/menus.js"></script>
         <script type="text/javascript" src="js/inner.js"></script>
     </body>

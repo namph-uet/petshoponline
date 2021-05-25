@@ -78,7 +78,7 @@
 </style>
 
 <div class="container pl-2 pr-2 pt-3 pb-5">
-	<p class="font-weight-bold ml-1 mb-1" style="font-size: 180%">Popular right now </p>
+	<p class="font-weight-bold ml-1 mb-1" style="font-size: 180%">Phổ biến hiện nay</p>
 	<div class="row m-0">
 		<?php include("./mvc/views/partials/home-post.php"); ?>  
 	</div>
@@ -86,12 +86,12 @@
 <div id="myModal" class="modal">
 	<div class="modal-content">
 		<div class="modal-header">
-			<h2>Out of stock</h2>
+			<h2>Hết hàng</h2>
 			<span class="close" onclick="closeModel()">&times;</span>
 		</div>
 		<div class="modal-body">
-			<h4>The product is temporarily out of stock</h4>
-			<p>Please select another product!</p>
+			<h4>Hiện tại sản phẩm đang tạm hết hàng</h4>
+			<p>Mời quý khách chọn sản phẩm khác!</p>
 		</div>
 	</div>
 </div>

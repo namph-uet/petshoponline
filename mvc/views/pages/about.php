@@ -105,6 +105,28 @@
                         </div> -->
                         <hr class="my-0"> </div>
                 </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="../public/images/img-2.jpg" alt="" class=" avatar-la"/>
+                            <div class="team-content">
+                                <h3 class="title">Nguyễn Ngọc Ánh</h3> <span class="post">Chưa có ny</span> </div>
+                        </div>
+                        <!-- <div class="team-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                        </div> -->
+                        <hr class="my-0"> </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="hover-team">
+                        <div class="our-team"> <img src="../public/images/img-3.png" alt="" class=" avatar-la"/>
+                            <div class="team-content">
+                                <h3 class="title">Tô Vũ Phương Loan</h3> <span class="post">Chưa có ny</span> </div>
+                        </div>
+                        <!-- <div class="team-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                        </div> -->
+                        <hr class="my-0"> </div>
+                </div>
             </div>
         </div>
     </div>

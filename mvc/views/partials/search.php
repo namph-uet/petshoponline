@@ -2,7 +2,7 @@
     <i class="fa fa-search cl" aria-hidden="true" style="line-height: 40px"></i>
 </div>
 <div style="width: calc(100% - 150px);height: 40px;background: red">
-    <input id="inputSearch" placeholder="Search Medicine" style="width: 100%;height: 100%;border:0;outline: none;">
+    <input id="inputSearch" placeholder="Tìm thuốc" style="width: 100%;height: 100%;border:0;outline: none;">
 </div>
 <div id="searchResult" class="bg-white p-2" style="width: 100%;position: absolute;margin-top: 40px;border-radius: 8px;display: none;">
 

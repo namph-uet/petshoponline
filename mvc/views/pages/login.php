@@ -7,14 +7,14 @@
 	<div id="box--content__pc" class=" p-2" style="width: 100%;">
 		<div class="p-3 pt-4" style="width: 30%;height: 340px;margin: auto;margin-top: 100px">
 			<div class="p-3 bg" style="width: 100%;border-radius: 20px;">
-				<p class="text-center font-weight-bold mb-2 text-white" style="font-size: 120%">Login Admin</p>
+				<p class="text-center font-weight-bold mb-2 text-white" style="font-size: 120%">Đăng nhập Admin</p>
 				<label class="font-weight-bold text-white">Email</label>
 				<input class="form-control" type="email" id="email">
-				<label class="font-weight-bold mt-2 text-white">Password</label>
+				<label class="font-weight-bold mt-2 text-white">Mật khẩu</label>
 				<input class="form-control" type="password" id="password">
 				<p id="status--login" class="text-danger text-center mb-0 mt-3" style="font-size: 90%;display: none;"></p>
 				<div class="text-center pt-3">
-					<button id="loginButtonSubmit" class="btn bg-white">Login</button>
+					<button id="loginButtonSubmit" class="btn bg-white">Đăng nhập</button>
 				</div>
 			</div>
 		</div>

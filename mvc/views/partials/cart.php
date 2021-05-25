@@ -1,11 +1,11 @@
 <div id="card--box" class="bg-white pl-3 pt-2 pr-3" style="width: 300px;height: calc(100vh - 200px);position: absolute;margin-left: calc(100% - 323px);margin-top: 70px;border-radius: 10px;z-index: 999;display: none;">
-    <p class="font-weight-bold float-left" style="font-size: 130%">My Cart</p>
+    <p class="font-weight-bold float-left" style="font-size: 130%">Giỏ hàng của tôi</p>
     <p id="totalPrinf" class="font-weight-bold float-right mt-1 cl">500$</p>
     <div style="clear: both;"></div>
     <div id="cartPrinf" style="overflow-y: auto;height: calc(100vh - 310px)">
     </div>
     <a href="/shoppet/payment/checkout">
-        <div class="btn bg font-weight-bold text-white">Checkout</div>
+        <div class="btn bg font-weight-bold text-white">Thanh toán</div>
     </a>
 </div>
 

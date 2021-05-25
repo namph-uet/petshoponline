@@ -73,14 +73,14 @@
             </div>
             <div id="menu__mobile" class="col-12 col-md-6 p-0" style="height: 40px;">
                 <div  class="p-2" style="width: 55%;height: 40px;margin: auto;display: flex;">
-                    <p class="font-weight-bold" style="width: 25%;"><a href="/shoppet/" style="text-decoration: none;color: black">Home</a></p>
-                    <p class="font-weight-bold" style="width: 25%"><a href="/shoppet/contact/" style="text-decoration: none;color: black">Contact</a></p>
-                    <p class="font-weight-bold" style="width: 25%"><a href="/shoppet/about/" style="text-decoration: none;color: black">About</a></p>
+                    <p class="font-weight-bold" style="width: 25%;"><a href="/shoppet/" style="text-decoration: none;color: black">Trang chủ</a></p>
+                    <p class="font-weight-bold" style="width: 25%; margin-left: 20px;"><a href="/shoppet/contact/" style="text-decoration: none;color: black">Liên hệ</a></p>
+                    <p class="font-weight-bold" style="width: 25%"><a href="/shoppet/about/" style="text-decoration: none;color: black">Giới thiệu</a></p>
                 </div>
             </div>
             <div id="cart--button__pc" class="col-12 col-md-2 p-0 " style="height: 40px;">
                 <div class="float-right">
-                    <div class="btn bg text-white">Check Cart</div>
+                    <div class="btn bg text-white">Giỏ hàng</div>
                     <div class="bg-white" style="width: 30px;height: 30px;background: green;position: absolute;margin-top: -50px;margin-left: 85px;border-radius: 50%">
                         <p id="countOrder" class="text-center font-weight-bold cl" style="line-height: 28px"></p>
                     </div>
