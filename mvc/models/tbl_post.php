@@ -50,8 +50,6 @@ class tbl_post extends DB{
 		while ($row = mysqli_fetch_assoc($sqlResult)) {
 			$quantity = (int)$row["quantity"];
 		}
-		echo $quantity;
-
 		return $quantity;
 	}
 
@@ -63,8 +61,6 @@ class tbl_post extends DB{
 		while ($row = mysqli_fetch_assoc($sqlResult)) {
 			$name = $row["name"];
 		}
-		echo $name;
-
 		return $name;
 	}
 }

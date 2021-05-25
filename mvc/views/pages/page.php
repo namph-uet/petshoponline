@@ -13,7 +13,7 @@ $row = mysqli_fetch_array($data["Detail"]);
 					<p class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height: 25px">Tên: <?php echo $row['name']; ?></p>
 					<p  class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height:25px">Quốc gia: <?php echo $row['origin']; ?></p>
 				</div>
-				<p class="mt-4 font-weight-bold mb-0 float-right" style="font-size: 200%"><?php echo $row['price']; ?>$</p>
+				<p class="mt-4 font-weight-bold mb-0 float-right" style="font-size: 200%"><?php echo $row['price']; ?>	vnd</p>
 				<div style="clear: both;"></div>
 
 				<div onclick="addToCart(<?php echo $row['id']; ?>,`<?php echo $row['name']; ?>`,`<?php echo $row['image']; ?>`,<?php echo $row['price']; ?>)" class="btn bg mt-3 text-white float-right ml-2"><i class="fa fa-shopping-basket text-white " aria-hidden="true"></i></div>
@@ -42,29 +42,5 @@ $row = mysqli_fetch_array($data["Detail"]);
 	function addToCart(id,name,image,price){
 		console.log('asdasdad')
   		modal.style.display = "block";
-		// var cart =JSON.parse(localStorage.getItem('cart'));
-		// var checkCart=0;
-		// var quanlity = 1;
-		// if(cart.length > 0){
-		// 	for(let i = 0; i < cart.length; i++) {
-		// 		if (id == cart[i].id) {
-		// 			cart[i].quanlity++;
-		// 			localStorage.setItem("cart", JSON.stringify(cart));
-		// 			cartPrinf();
-		// 			checkCart=1;
-		// 			break;
-		// 		}else {
-		// 			checkCart=0;
-		// 		}
-		// 	}
-		// }else {
-		// 	checkCart=0;
-		// }
-		// if(checkCart == 0){
-		// 	var addToCart = {id,name,image,price,quanlity};
-		// 	cart.push(addToCart);
-		// 	localStorage.setItem("cart", JSON.stringify(cart));
-		// 	cartPrinf();
-		// }
 	}
 </script>

@@ -14,7 +14,7 @@ while($row = mysqli_fetch_array($data["GetPayment"])){
 	<p>Phone: '.$row["phone"].'</p>
 	<p>Address: '.$row["address"].'</p>
 	<p>Method: '.$method.'</p>
-	<p class="font-weight-bold" style="font-size:140%">Tổng: '.$row["total"].'$</p>
+	<p class="font-weight-bold" style="font-size:140%">Tổng: '.$row["total"].'	vnd</p>
 	</div>
 	<div style="width: 50%">
 	'.$row["infocart"].'

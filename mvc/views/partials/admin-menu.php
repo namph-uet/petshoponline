@@ -16,7 +16,12 @@
 				<p class="mb-0 font-weight-bold text-white text-center" style="font-size: 120%">System Manage</p>
 			</div>
 			<div class="mt-2" style="width: 100%;height: 40px;border-bottom: 2px solid #fff;opacity: 0.9">
-				<a href="/shoppet/login/logout">
+				<a href="/shoppet/mesage" style="text-decoration: none;">
+					<p class="mb-0 font-weight-bold text-white text-center" style="font-size: 120%">Tin nhắn</p>
+				</a>
+			</div>
+			<div class="mt-2" style="width: 100%;height: 40px;border-bottom: 2px solid #fff;opacity: 0.9">
+				<a href="/shoppet/login/logout" style="text-decoration: none;">
 					<p class="mb-0 font-weight-bold text-white text-center" style="font-size: 120%">Logout</p>
 				</a>
 			</div>

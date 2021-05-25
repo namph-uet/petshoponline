@@ -1,24 +1,10 @@
-<html
-    style=""
-    class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
->
+<html>
     <head>
         <title>Liên hệ với chúng tối! Hiệu thuốc 3 chị em</title>
-        <meta name="keywords" content="drivers ed" />
-        <meta name="description" content="We invite you to contact CreativeMob today. Creating is in our blood and we'd love to conceptualize a marketing strategy that works for your company." />
-        <meta charset="utf-8" />
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="css/inner.css" />
         <link rel="stylesheet" type="text/css" href="css/mobile-menu.css" />
         <link type="text/css" media="screen" rel="stylesheet" href="css/awwwards.css" />
         <link rel="stylesheet" type="text/css" href="css/common.css" />
-        <style>
-            .antispam {
-                display: none;
-            }
-        </style>
-        <script async="" src="//www.google-analytics.com/analytics.js"></script>
         <script type="text/javascript" src="js/libs/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="js/libs/js-modernizr.min.js"></script>
         <script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
@@ -111,17 +97,17 @@
         
         <style>
             .glot-sub-active {
-                color: #1296ba !important;
+                color: #1296ba;
             }
 
             .glot-sub-hovered {
-                color: #1296ba !important;
+                color: #1296ba;
             }
             .glot-sub-clzz {
                 cursor: pointer;
             }
             .glot-sub-clzz:hover {
-                color: #1296ba !important;
+                color: #1296ba;
             }
             .ej-trans-sub {
                 position: absolute;
@@ -315,7 +301,7 @@
                 background: url(../img/inner/resources/close-btn.png) no-repeat;
                 width: 52px;
                 height: 52px;
-                right: 0 !important;
+                right: 0;
             }
 
             a.colio-close span {
@@ -327,7 +313,7 @@
 
             .colio-navigation {
                 margin-top: 25px;
-                left: 0 !important;
+                left: 0;
             }
 
             .colio-navigation a.colio-prev,
@@ -350,7 +336,7 @@
             }
 
             .colio-container {
-                padding: 0 !important;
+                padding: 0;
             }
 
             #resource-links {
@@ -438,7 +424,7 @@
                 padding: 0;
             }
             .no-border {
-                border: 0 !important;
+                border: 0;
             }
             .mtp5 {
                 margin-top: 5px;
@@ -3221,38 +3207,40 @@
             label {
                 margin-top: 44px;
             }
-            @media (min-width: 960px) and (max-width: 1279px)
+            @media (min-width: 960px) and (max-width: 1279px){
                 h1.small {
                     font-size: 70px;
                 }
-            .blue {
-                color: #ffb108;
+                .blue {
+                    color: #ffb108;
+                }
+                h1, h2, h3 {
+                    margin-bottom: 0.25em;
+                }
+                h1, h2, h3 {
+                    font-family: 'gothambold', Arial, sans-serif;
+                    font-weight: normal;
+                    line-height: 1.2em;
+                    margin-bottom: 0.5em;
+                }
             }
-            h1, h2, h3 {
-                margin-bottom: 0.25em;
-            }
-            h1, h2, h3 {
-                font-family: 'gothambold', Arial, sans-serif;
-                font-weight: normal;
-                line-height: 1.2em;
-                margin-bottom: 0.5em;
-            }
-            @media (min-width: 960px) and (max-width: 1279px)
-            h2.subtitle {
-                font-size: 35px;
-            }
-            h2.subtitle {
-                font-family: 'gothamlight', Arial, sans-serif;
-                font-size: 36px;
-            }
-            .black {
-                color: black;
-            }
-            .special_contact-text {
-                font-size: 24px;
-            }
-            p.large {
-                font-size: 30px;
+            @media (min-width: 960px) and (max-width: 1279px) {
+                h2.subtitle {
+                    font-size: 35px;
+                }
+                h2.subtitle {
+                    font-family: 'gothamlight', Arial, sans-serif;
+                    font-size: 36px;
+                }
+                .black {
+                    color: black;
+                }
+                .special_contact-text {
+                    font-size: 24px;
+                }
+                p.large {
+                    font-size: 30px;
+                }
             }
             /* line 81, /Applications/MAMP/htdocs/CreativeMob_New/sass/inner/pages/_contact.scss */
             body.contact input,
@@ -3457,11 +3445,7 @@
                     background-image: url("/ribbons/awwwards_nominee_green_right2x.png");
                 }
             }
-            * {
-                outline: none;
-            }
-            /* Tab Content
-================================================== */
+
             .tab-contact {
                 position: fixed;
                 display: block;
@@ -3947,43 +3931,38 @@
     </head>
     <body class="contact size- size-large" style="">
         <div class="maincontainer">
-
-            <!-- CONTACT FORM -->
             <section class="top">
                 <div class="inner">
                     <div class="chunk-right">
                         <h1 class="small blue">Liên hệ với chúng tôi</h1>
-                        <h2 class="subtitle black">Bắt đầu tạo!</h2>
                         <p class="blue special_contact-text">Điền thông tin vào phiếu bên trái và gửi cho chúng tôi. Chúng tôi luôn cố gắng lắng nghe ý kiến phản hồi từ bạn!</p>
                         <p class="large blue">
                             <strong>Gọi trực tiếp cho chúng tôi! <a class="phone" href="tel:0946957269">0946957269</a></strong>
                         </p>
                     </div>
-
                     <div class="chunk-left">
-                        <form id="contactForm" class="clearafter" method="post" novalidate="novalidate">
+                        <form id="contactForm" action="./submit" class="clearafter" method="post">
                             <div class="envelope-back"></div>
                             <div class="letter">
-                                <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
                                 <label for="name">Họ và tên</label>
-                                <input type="text" id="name" name="name" />
+                                <input type="text" id="name" name="name" required/>
                                 <div class="frm-ok name" style="left: 427px; top: 117px;"></div>
                                 <br />
                                 <label for="email">Email</label>
-                                <input type="text" id="email" name="email" />
+                                <input type="text" id="email" name="email" required/>
                                 <div class="frm-ok email" style="left: 427px; top: 203px;"></div>
                                 <br />
                                 <label for="phone">Điện thoại</label>
-                                <input type="text" id="phone" name="phone" />
+                                <input type="text" id="phone" name="phone" required/>
                                 <div class="frm-ok phone" style="left: 427px; top: 289px;"></div>
                                 <br />
                                 <label for="message">Tin nhắn</label>
-                                <textarea id="message" name="message"></textarea>
+                                <textarea id="message" name="message" required></textarea>
                                 <div class="frm-ok message" style="left: 427px; top: 377px;"></div>
                                 <br />
                             </div>
                             <div class="envelope-front"></div>
-                            <button class="orange with-blue-text">Gửi tin nhắn</button>
+                            <button type="submit" class="orange with-blue-text">Gửi tin nhắn</button>
                         </form>
                     </div>
                 </div>
@@ -3991,4 +3970,10 @@
         <script type="text/javascript" src="js/menus.js"></script>
         <script type="text/javascript" src="js/inner.js"></script>
     </body>
+    <script  type="text/javascript">
+        function validateForm() {
+            var
+        }
+    </script>
+
 </html>

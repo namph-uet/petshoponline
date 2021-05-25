@@ -81,11 +81,9 @@
 			<img src="../public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
 			</div>
 			<div class="pl-1" style="width: calc(100% - 80px);height: 80px;">
-			<p class="font-weight-bold mb-0">Germanian Little Pug</p>
-			<p class="mb-0 float-left" style="font-size: 80%;margin-top: -2px">Little Dogs - </p>
-			<p class="mb-0 float-left" style="font-size: 80%;margin-top: -2px">&nbspQuanliti: 4</p>		
-			
-			<div class="float-right font-weight-bold mb-0 mt-4" style="font-size: 125%">`+cart[i].price*cart[i].quanlity+`$</div>
+			<p class="font-weight-bold mb-0">`+cart[i].name+`</p>
+			<p class="mb-0 float-left" style="font-size: 80%;margin-top: -2px">&nbspQuantity: 4</p>		
+			<div class="float-right font-weight-bold mb-0 mt-4" style="font-size: 125%">`+cart[i].price*cart[i].quanlity+`	vnd</div>
 			</div>
 			</div>`
 			totalPrinf +=cart[i].price*cart[i].quanlity; 
@@ -94,8 +92,8 @@
 			document.getElementById("postIds").value += cart[i].id + ",";
 			document.getElementById("order-quantity").value += cart[i].quanlity + ",";
 		}
-		$('#totalPrinf2').text(totalPrinf+(totalPrinf*fee/100)+delivery*1-(totalPrinf*discount/100)+"$");
-		$('#total').val(totalPrinf+(totalPrinf*fee/100)+delivery*1-(totalPrinf*discount/100));
+		$('#totalPrinf2').text(Math.round(totalPrinf+(totalPrinf*fee/100)+delivery*1-(totalPrinf*discount/100)).toFixed(2)+"	vnd");
+		// $('#total').val(totalPrinf+(totalPrinf*fee/100)+delivery*1-(totalPrinf*discount/100));
 	}
 
 
@@ -113,7 +111,6 @@
 			<img src="../public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
 			</div>
 			<div class="pl-1" style="width: calc(100% - 80px);height: 80px;">
-			<p class="font-weight-bold mb-0">Germanian Little Pug</p>
 			<p class="mb-0 float-left" style="font-size: 80%;margin-top: -2px">Little Dogs - </p>
 			<p class="mb-0 float-left" style="font-size: 80%;margin-top: -2px">&nbspQuanliti: 4</p>		
 

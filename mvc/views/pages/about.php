@@ -62,32 +62,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">We are <span>Medicine Shop</span></h2>
-                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Trusted</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Professional</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Expert</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
+                    <h2 class="noo-sh-title-top">Hiệu thuốc 3 chị em</span></h2>
+                    <p>Tại Việt Nam, trong vòng nhiều năm trở lại đây, hình thức mua sắm trực tuyến đang ngày càng trở nên phổ biến. Các sàn thương mại điện tử cung cấp các mặt hàng rất đa dạng cùng hình thức thanh toán linh hoạt, phong phú, cho phép người tiêu dùng mua sắm trực tuyến một cách nhanh chóng, tiện lợi. Bên cạnh những nhu yếu phẩm khác như thực phẩm, vật dụng gia đình, ... thì dược phẩm cũng là một thứ không thể thiếu, vì vậy mà hình thức các hiệu thuốc trực tuyến đã dần xuất hiện và phát triển trên nhiều quốc gia. 
+Nắm bắt cơ hội đó, chúng tôi đã cho ra đời hệ thống Hiệu thuốc 3 chị em. Được ra đời và phát triển với mục tiêu cung cấp cho người tiêu dùng một phương thức mua sắm dược phẩm mới, tiến hành mua và thanh toán trực tuyến, giúp tiết kiệm thời gian di chuyển (so với cách thức truyền thống) cho người tiêu dùng. Bên cạnh đó, hiệu thuốc trực tuyến sẽ đảm bảo sự riêng tư và bí mật trong việc giải quyết các nhu cầu theo đơn thuốc và chăm sóc sức khỏe của khách hàng.
+Hiệu thuốc 3 chị em của chúng tôi rất mong có thể cung cấp cho người tiêu dùng những trải nghiệm mua sắm tốt nhất!</p>
                 </div>
             </div>
             <div class="row my-4">

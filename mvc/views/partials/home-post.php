@@ -13,7 +13,7 @@ while($row = mysqli_fetch_array($data["Post"])){
     </div>
     </a>
     <p class="font-weight-bold mt-3 mb-0" style="font-size: 110%">'.$row["title"].'</p>
-    <p class="font-weight-bold float-left" style="font-size: 130%">$'.$row["price"].'</p>
+    <p class="font-weight-bold float-left" style="font-size: 130%">'.$row["price"].'    vnd</p>
     <div id="" onclick="addToCart('.$row["id"].',`'.$row["title"].'`,`'.$row["image"].'`,'.$row["price"].','.$row["quantity"].')" class="float-right text-center bg" style="width: 40px;height: 40px;border-radius: 5px">
     <i class="fa fa-shopping-basket text-white" aria-hidden="true" style="font-size: 140%;line-height: 38px"></i>
     </div>
