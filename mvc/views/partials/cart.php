@@ -103,13 +103,12 @@
             <img src="/shoppet/public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
             </div>
             <div class="pl-1" style="width: calc(100% - 80px);height: 80px;">
-            <p class="font-weight-bold mb-0">Germanian Little Pug</p>
-            <p class="mb-1" style="font-size: 75%;margin-top: -2px">Little Dogs</p>
+            <p class="font-weight-bold mb-0">`+cart[i].name+`</p>
             <div style="width: 100%;height: 30px;">
             <div onclick=dowQuanlity(`+cart[i].id+`) class="float-left bg text-center text-white font-weight-bold" style="width: 30px;height: 30px;border-radius: 8px">-</div>
             <div class="float-left text-center font-weight-bold" style="width: 30px;height: 30px;border-radius: 8px">`+cart[i].quanlity+`</div>
             <div onclick=upQuanlity(`+cart[i].id+`) class="float-left bg text-center text-white font-weight-bold" style="width: 30px;height: 30px;border-radius: 8px">+</div>
-            <div class="float-right font-weight-bold">`+cart[i].price*cart[i].quanlity+`$</div>
+            <div class="float-right font-weight-bold">`+(cart[i].price*cart[i].quanlity).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") +`    vnd</div>
             </div>
             </div>
             </div>`
@@ -117,7 +116,7 @@
 
             document.getElementById("cartPrinf").innerHTML +=cartPrinf;  
         }
-        $('#totalPrinf').text("Total: "+totalPrinf+"$");
+        $('#totalPrinf').text("Tổng: "+totalPrinf.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") +"    vnd");
         localStorage.setItem("countOrder", JSON.stringify(countOrder));
         document.getElementById("countOrder").innerHTML =countOrder;
     });

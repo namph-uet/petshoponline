@@ -78,7 +78,7 @@
 </style>
 
 <div class="container pl-2 pr-2 pt-3 pb-5">
-	<p class="font-weight-bold ml-1 mb-1" style="font-size: 180%">Phổ biến hiện nay</p>
+	<p class="font-weight-bold ml-1 mb-1" style="font-size: 180%">Các sản phẩm</p>
 	<div class="row m-0">
 		<?php include("./mvc/views/partials/home-post.php"); ?>  
 	</div>

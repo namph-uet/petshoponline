@@ -10,10 +10,40 @@ $row = mysqli_fetch_array($data["Detail"]);
 				<p class="font-weight-bold mb-0" style="font-size: 130%"><?php echo $row['title']; ?></p>
 				<p><?php echo $row['content']; ?></p>
 				<div class="float-left" style="width: 50%">
-					<p class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height: 25px">Tên: <?php echo $row['name']; ?></p>
-					<p  class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height:25px">Quốc gia: <?php echo $row['origin']; ?></p>
+					<p class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height: 25px">Tên sản phẩm: <?php echo $row['name']; ?></p>
+					<p  class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height:25px">Quốc gia: 
+					<?php
+					switch($row['origin'])
+					{
+						case 1: 
+							echo 'Mỹ';
+							break;
+						
+						case 2: 
+							echo 'Nhật Bản';
+							break;
+
+						case 3: 
+							echo 'Trung Quốc';
+							break;
+
+						case 4: 
+							echo 'Úc';
+							break;
+						
+						case 5: 
+							echo 'Việt Nam';
+							break;
+						
+						default: 
+							echo "Việt Nam";
+							break;
+					}
+						
+					//  echo $row['origin']; 
+					 ?></p>
 				</div>
-				<p class="mt-4 font-weight-bold mb-0 float-right" style="font-size: 200%"><?php echo $row['price']; ?>	vnd</p>
+				<p class="mt-4 font-weight-bold mb-0 float-right" style="font-size: 200%"><?php echo number_format($row['price']); ?>	vnd</p>
 				<div style="clear: both;"></div>
 
 				<div onclick="addToCart(<?php echo $row['id']; ?>,`<?php echo $row['name']; ?>`,`<?php echo $row['image']; ?>`,<?php echo $row['price']; ?>)" class="btn bg mt-3 text-white float-right ml-2"><i class="fa fa-shopping-basket text-white " aria-hidden="true"></i></div>

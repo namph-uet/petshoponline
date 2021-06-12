@@ -28,16 +28,16 @@ class tbl_post extends DB{
 		return mysqli_query($this->con, $qr);
 	}
 
-	public function EditPost($title,$content,$name,$origin,$price,$image,$background,$id){
+	public function EditPost($title,$content,$name,$origin,$price,$image,$background,$id,$quantity){
 		$qr = "";
 		if($image != '') {
 			$qr = "UPDATE tbl_post SET title='$title',content='$content',name='$name',origin='$origin',
-			price='$price',image='$image',background='$background' WHERE id='$id'";
+			price='$price',image='$image',background='$background',quantity='$quantity' WHERE id='$id'";
 		}
 		else
 		{
 			$qr = "UPDATE tbl_post SET title='$title',content='$content',name='$name',origin='$origin',
-			price='$price',background='$background' WHERE id='$id'";
+			price='$price',background='$background',quantity='$quantity' WHERE id='$id'";
 		}
 		return mysqli_query($this->con, $qr);
 	}

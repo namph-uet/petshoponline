@@ -65,18 +65,18 @@
                     <h2 class="noo-sh-title-top">Hiệu thuốc 3 chị em</span></h2>
                     <p>Tại Việt Nam, trong vòng nhiều năm trở lại đây, hình thức mua sắm trực tuyến đang ngày càng trở nên phổ biến. Các sàn thương mại điện tử cung cấp các mặt hàng rất đa dạng cùng hình thức thanh toán linh hoạt, phong phú, cho phép người tiêu dùng mua sắm trực tuyến một cách nhanh chóng, tiện lợi. Bên cạnh những nhu yếu phẩm khác như thực phẩm, vật dụng gia đình, ... thì dược phẩm cũng là một thứ không thể thiếu, vì vậy mà hình thức các hiệu thuốc trực tuyến đã dần xuất hiện và phát triển trên nhiều quốc gia. 
 Nắm bắt cơ hội đó, chúng tôi đã cho ra đời hệ thống Hiệu thuốc 3 chị em. Được ra đời và phát triển với mục tiêu cung cấp cho người tiêu dùng một phương thức mua sắm dược phẩm mới, tiến hành mua và thanh toán trực tuyến, giúp tiết kiệm thời gian di chuyển (so với cách thức truyền thống) cho người tiêu dùng. Bên cạnh đó, hiệu thuốc trực tuyến sẽ đảm bảo sự riêng tư và bí mật trong việc giải quyết các nhu cầu theo đơn thuốc và chăm sóc sức khỏe của khách hàng.
-Hiệu thuốc 3 chị em của chúng tôi rất mong có thể cung cấp cho người tiêu dùng những trải nghiệm mua sắm tốt nhất!</p>
+Hiệu thuốc của chúng tôi rất mong có thể cung cấp cho người tiêu dùng những trải nghiệm mua sắm tốt nhất!</p>
                 </div>
             </div>
             <div class="row my-4">
                 <div class="col-12">
-                    <h2 class="noo-sh-title">Meet Our Team</h2>
+                    <h2 class="noo-sh-title" style="margin-bottom: 40px">Nhóm chúng tôi</h2>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
                         <div class="our-team"> <img src="../public/images/img-1.png" alt="" class=" avatar-la"/>
                             <div class="team-content">
-                                <h3 class="title">Mai Thị Lan Anh</h3> <span class="post">Ny Nam</span> </div>
+                                <h3 class="title">Mai Thị Lan Anh</h3></div>
                         </div>
                         <!-- <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
@@ -87,7 +87,7 @@ Hiệu thuốc 3 chị em của chúng tôi rất mong có thể cung cấp cho 
                     <div class="hover-team">
                         <div class="our-team"> <img src="../public/images/img-2.jpg" alt="" class=" avatar-la"/>
                             <div class="team-content">
-                                <h3 class="title">Nguyễn Ngọc Ánh</h3> <span class="post">Chưa có ny</span> </div>
+                                <h3 class="title">Nguyễn Ngọc Ánh</h3></div>
                         </div>
                         <!-- <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
@@ -98,7 +98,7 @@ Hiệu thuốc 3 chị em của chúng tôi rất mong có thể cung cấp cho 
                     <div class="hover-team">
                         <div class="our-team"> <img src="../public/images/img-3.png" alt="" class=" avatar-la"/>
                             <div class="team-content">
-                                <h3 class="title">Tô Vũ Phương Loan</h3> <span class="post">Chưa có ny</span> </div>
+                                <h3 class="title">Tô Vũ Phương Loan</h3> </div>
                         </div>
                         <!-- <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>

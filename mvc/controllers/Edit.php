@@ -16,6 +16,7 @@ class Edit extends Controller{
 		$origin = $_POST["origin"];
 		$price = $_POST["price"];
 		$background = $_POST["background"];
+		$quantity = $_POST["quantity"];
 		$image='';
 		$total = count($_FILES['upload']['name']);
 		if($_FILES['upload']['name'][0] != '') {
@@ -30,7 +31,7 @@ class Edit extends Controller{
 			}
 		}	
 		
-		$InsertToDb = $GetModel->EditPost($title,$content,$name,$origin,$price,$image,$background,$id);
+		$InsertToDb = $GetModel->EditPost($title,$content,$name,$origin,$price,$image,$background,$id,$quantity);
 		header( "Location: ../detail/page/".$id);
 	}
 }

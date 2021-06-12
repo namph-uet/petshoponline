@@ -14,11 +14,11 @@
 							<input type="text" name="title" class="form-control" required>
 						</div>
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Tên</label>
+							<label class="font-weight-bold">Tên sản phẩm</label>
 							<input type="text" name="name" class="form-control" required>
 						</div>
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Quốc gia</label>
+							<label class="font-weight-bold">Nguồn gốc</label>
 							<select class="form-control" name="origin" >
 								<option value="1">Mỹ</option>
 								<option value="2">Nhật Bản</option>
@@ -36,23 +36,23 @@
 							<input type="number" name="price" class="form-control" required>
 						</div>
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Ảnh</label>
+							<label class="font-weight-bold">Ảnh sản phẩm</label>
 							<input type="file" name="upload[]" multiple>
 						</div>
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Ảnh bìa</label>
+							<label class="font-weight-bold">Hình nền</label>
 							<select class="form-control" name="background" >
-								<option value="1.jpg">Ảnh bìa 1</option>
-								<option value="2.jpg">Ảnh bìa 2</option>
-								<option value="3.jpg">Ảnh bìa 3</option>
+								<option value="1.jpg">Hình nền 1</option>
+								<option value="2.jpg">Hình nền 2</option>
+								<option value="3.jpg">Hình nền 3</option>
 							</select>
 						</div>
 						<div class="col-9 p-2">
-							<label class="font-weight-bold">Nội dung</label>
+							<label class="font-weight-bold">Mô tả sản phẩm</label>
 							<textarea class="form-control" name="content" required></textarea>
 						</div>
 						<div class="col-12">
-							<button type="submit" class="btn bg float-right text-white">Thêm</button>
+							<button type="submit" class="btn bg float-right text-white">Thêm sản phẩm</button>
 						</div>
 					</div>
 				</form>

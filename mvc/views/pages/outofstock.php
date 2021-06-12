@@ -63,6 +63,6 @@
 <body>
     <div class="mainbox">
         <i class="far fa-question-circle fa-spin"></i>
-        <div class="msg">This product is temporarily unavailable<p>Let's go <a href="./">home</a> and try from there.</p></div>
+        <div class="msg">Đơn hàng của bạn có những sản phẩm không có sẵn.<p>Về <a href="./">Trang chủ</a> và thử đặt hàng lại.</p></div>
     </div>
 </body>
