@@ -64,6 +64,7 @@
 						}
 					?>" style="display: none;"><?php echo $row["price"]; ?></p>
 				<?php } ?>
+				
 				<p id="totalPrinf2" class="font-weight-bold float-right mt-1 mb-0" style="font-size: 130%;clear: right;"></p>
 			</div>
 		</div>
@@ -105,7 +106,7 @@
 			document.getElementById("order-quantity").value += cart[i].quanlity + ",";
 		}
 		var total = Math.round(totalPrinf + (totalPrinf * fee / 100) + parseInt(delivery) - ( totalPrinf * discount / 100)).toFixed(2)
-		
+		$('#total').val(Math.round(total))
 		$('#totalPrinf2').text("Tổng:	"+total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"	vnd");
 		// $('#total').val(totalPrinf+(totalPrinf*fee/100)+delivery*1-(totalPrinf*discount/100));
 	}
