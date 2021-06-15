@@ -73,9 +73,9 @@
             </div>
             <div id="menu__mobile" class="col-12 col-md-6 p-0" style="height: 40px;">
                 <div  class="p-2" style="width: 55%;height: 40px;margin: auto;display: flex;">
-                    <p class="font-weight-bold" style="width: 25%;"><a href="/shoppet/" style="text-decoration: none;color: black">Trang chủ</a></p>
-                    <p class="font-weight-bold" style="width: 25%; margin-left: 20px;"><a href="/shoppet/contact/" style="text-decoration: none;color: black">Liên hệ</a></p>
-                    <p class="font-weight-bold" style="width: 25%"><a href="/shoppet/about/" style="text-decoration: none;color: black">Giới thiệu</a></p>
+                    <p class="font-weight-bold" style="width: 25%;"><a href="/" style="text-decoration: none;color: black">Trang chủ</a></p>
+                    <p class="font-weight-bold" style="width: 25%; margin-left: 20px;"><a href="./contact/" style="text-decoration: none;color: black">Liên hệ</a></p>
+                    <p class="font-weight-bold" style="width: 25%"><a href="/about/" style="text-decoration: none;color: black">Giới thiệu</a></p>
                 </div>
             </div>
             <div id="cart--button__pc" class="col-12 col-md-2 p-0 " style="height: 40px;">

@@ -4,7 +4,7 @@
     <div style="clear: both;"></div>
     <div id="cartPrinf" style="overflow-y: auto;height: calc(100vh - 310px)">
     </div>
-    <a href="/shoppet/payment/checkout">
+    <a href="./payment/checkout">
         <div class="btn bg font-weight-bold text-white">Thanh toán</div>
     </a>
 </div>
@@ -100,7 +100,7 @@
             <div onclick=deleteCart(`+cart[i].id+`) class="bg text-center" style="width:25px;height:25px;border-radius:50%;position:absolute">
             <p><i class="fa fa-times text-white" aria-hidden="true" style="line-height:23px"></i></p>
             </div>
-            <img src="/shoppet/public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
+            <img src="./public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
             </div>
             <div class="pl-1" style="width: calc(100% - 80px);height: 80px;">
             <p class="font-weight-bold mb-0">`+cart[i].name+`</p>
