@@ -24,7 +24,7 @@
 	$("#loginButtonSubmit").click(function() {  
 		var email = $("#email").val();
 		var password = $("#password").val();
-		$.post("../login/CheckLogin",{email:email,password:password},function(data){
+		$.post("../Login/CheckLogin",{email:email,password:password},function(data){
 			if(data == 1){
 				$("#status--login").show();
 				$("#status--login").text("Email hoặc mật khẩu sai");
