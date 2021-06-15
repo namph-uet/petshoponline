@@ -16,27 +16,27 @@ class tbl_payment extends DB{
 			while ($row = mysqli_fetch_assoc($sqlResult)) {
 				$oldQuantity = (int)$row["quantity"];
 			}
-
+			echo $oldQuantity;
 			if($oldQuantity-$orderCount[$index] < 0) $check = false;
 		}
 
-		if($check == false) return false;
-		else {
-			for($index = 0; $index < count($order_postIds) - 1; $index++) {
-				$getQuantityQuery = "SELECT quantity FROM tbl_post WHERE id=$order_postIds[$index]";
-				$sqlResult = mysqli_query($this->con, $getQuantityQuery);
+		// if($check == false) return false;
+		// else {
+		// 	for($index = 0; $index < count($order_postIds) - 1; $index++) {
+		// 		$getQuantityQuery = "SELECT quantity FROM tbl_post WHERE id=$order_postIds[$index]";
+		// 		$sqlResult = mysqli_query($this->con, $getQuantityQuery);
 				
-				while ($row = mysqli_fetch_assoc($sqlResult)) {
-					$oldQuantity = (int)$row["quantity"];
-				}
+		// 		while ($row = mysqli_fetch_assoc($sqlResult)) {
+		// 			$oldQuantity = (int)$row["quantity"];
+		// 		}
 	
-				$updatePostQuery = "UPDATE tbl_post SET quantity=($oldQuantity-$orderCount[$index]) WHERE id=$order_postIds[$index]";
-				mysqli_query($this->con, $updatePostQuery);
+		// 		$updatePostQuery = "UPDATE tbl_post SET quantity=($oldQuantity-$orderCount[$index]) WHERE id=$order_postIds[$index]";
+		// 		mysqli_query($this->con, $updatePostQuery);
 	
-			}
+		// 	}
 			
-			return mysqli_query($this->con, $qr);
-		}
+		// 	return mysqli_query($this->con, $qr);
+		// }
 		
 		
 	}
