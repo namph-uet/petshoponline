@@ -6,7 +6,7 @@ class Message extends Controller{
 			$GetMessage = $GetModel ->GetMessage();
 			$this->view("master",["Page"=>"message","PageName"=>"Message","GetMessage"=>$GetMessage]);
 		}else{
-			header("Location: ./login/admin");
+			header("Location: ./Login/Admin");
 		}
 	}	
 }

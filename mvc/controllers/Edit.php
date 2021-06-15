@@ -32,7 +32,7 @@ class Edit extends Controller{
 		}	
 		
 		$InsertToDb = $GetModel->EditPost($title,$content,$name,$origin,$price,$image,$background,$id,$quantity);
-		header( "Location: ../detail/page/".$id);
+		header( "Location: ../Detail/Page/".$id);
 	}
 }
 ?>

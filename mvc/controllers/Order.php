@@ -6,7 +6,7 @@ class Order extends Controller{
 			$GetPayment = $GetModel ->GetPayment();
 			$this->view("master",["Page"=>"order-manage","PageName"=>"Order Manage","GetPayment"=>$GetPayment]);
 		}else{
-			header("Location: ../login/admin");
+			header("Location: ../Login/Admin");
 		}
 	}	
 }

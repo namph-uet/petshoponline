@@ -2,7 +2,7 @@
 class Login extends Controller{
 	function Admin(){
 		if(isset($_SESSION["email"])){
-			header("Location: ../product/productManage");
+			header("Location: ../Product/ProductManage");
 		}else{
 			$this->view("master",["Page"=>"login","PageName"=>"Login"]);
 		}
