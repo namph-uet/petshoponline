@@ -23,7 +23,7 @@
               'Content-Type': 'application/json'
           },
           success: function (data) {
-              console.log(data)
+            console.log(data)
             var searchResultAjax = ''; 
             data = JSON.parse(data);
             console.log('data')
@@ -45,9 +45,9 @@
             <img src="./public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
             </div>
             <div class="pl-2" style="width: calc(100% - 70px);height: 70px;">
-            <p class="font-weight-bold mb-0" style="overflow: hidden;max-height: 25px">`+data[i].title+`</p>
+            <p class="font-weight-bold mb-0" style="overflow: hidden;max-height: 25px">`+data[i].name+`</p>
             <div class="float-left" style="width: 50%">
-            <p class="mb-0 cl" style="font-size: 75%;overflow: hidden;max-height: 17px">Tên sản phẩm: `+data[i].name+`</p>
+            <p class="mb-0 cl" style="font-size: 75%;overflow: hidden;max-height: 17px">Mã sản phẩm: `+data[i].title+`</p>
             </div>
             
             <div style="clear: both;"></div>

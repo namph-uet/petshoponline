@@ -27,7 +27,7 @@
 		$.post("../login/CheckLogin",{email:email,password:password},function(data){
 			if(data == 1){
 				$("#status--login").show();
-				$("#status--login").text("Email or password is wrong");
+				$("#status--login").text("Email hoặc mật khẩu sai");
 			}else{
 				window.location.assign("../product/productManage");
 			}

@@ -6,7 +6,7 @@ while($row = mysqli_fetch_array($data["Post"])){
     <div class="prinfImage'.$row["id"].'" style="width: 100%;height: 170px;background-image: url(../public/images/background/'.$row["background"].'.jpg);background-size: 100% 100%;background-repeat: no-repeat;border-radius: 10px;">
     </div>
     </a>
-    <p class="font-weight-bold mt-3 mb-0" style="font-size: 110%">'.$row["title"].'</p>
+    <p class="font-weight-bold mt-3 mb-0" style="font-size: 110%">'.$row["name"].'</p>
     <p class="font-weight-bold float-left" style="font-size: 130%">'. number_format($row["price"]).'    vnd</p>
     <p class="font-weight-bold" style="font-size: 130%; margin-left: 150px">  Số lượng: '.$row["quantity"].'</p>
     <form action="../product/deleteProduct" method="post">

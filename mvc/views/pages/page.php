@@ -7,10 +7,10 @@ $row = mysqli_fetch_array($data["Detail"]);
 		<div class="row m-0">
 			<?php include("./mvc/views/partials/page-image-slide.php"); ?>
 			<div class="col-12 col-md-6 col-lg-8 p-3">
-				<p class="font-weight-bold mb-0" style="font-size: 130%"><?php echo $row['title']; ?></p>
+				<p class="font-weight-bold mb-0" style="font-size: 130%"><?php echo $row['name']; ?></p>
 				<p><?php echo $row['content']; ?></p>
 				<div class="float-left" style="width: 50%">
-					<p class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height: 25px">Tên sản phẩm: <?php echo $row['name']; ?></p>
+					<p class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height: 25px">Mã sản phẩm: <?php echo $row['title']; ?></p>
 					<p  class="mb-0 cl font-weight-bold" style="overflow: hidden;max-height:25px">Quốc gia: 
 					<?php
 					switch($row['origin'])

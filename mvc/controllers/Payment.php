@@ -75,7 +75,7 @@ class Payment extends Controller{
 
 			//Just a example, please check more in there
 			echo $total;
-			echo $jsonResult['payUrl'];
+			echo $jsonResult['status'];
 			header('Location: ' . $jsonResult['payUrl']);
 		} 
 		else if($method == 2) header( "Location: ../home" );

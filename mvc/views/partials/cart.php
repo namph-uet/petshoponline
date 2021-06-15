@@ -47,7 +47,7 @@
     }
 
     function addToCart(id,name,image,price,quantity){
-        console.log(quantity)
+        console.log(name)
         if(quantity <= 0) {
             document.getElementById("myModal").style.display = "block";
         }

@@ -10,7 +10,6 @@ class ApiController extends Controller{
 			$GetPost=array();
 			$GetPost['id']=$res['id'];
 			$GetPost['title']=$res['title'];
-			$GetPost['type']=$res['type'];
 			$GetPost['name']=$res['name'];
 			$GetPost['image']=$res['image'];
 			$GetPost['origin']=$res['origin'];

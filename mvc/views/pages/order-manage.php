@@ -5,7 +5,7 @@
 			<?php include("./mvc/views/partials/admin-menu.php"); ?>  
 			<div class="p-2" style="width: calc(100% - 220px);height: 100%;">
 				<div class="m-0 pl-2 pt-2" style="width: 100%">
-					<p class="font-weight-bold mb-1" style="font-size: 150%">Quản lý đặt hàng</p>
+					<p class="font-weight-bold mb-1" style="font-size: 150%">Quản lý đơn hàng</p>
 					<div class="row m-0">
 						<?php include("./mvc/views/partials/order-item.php"); ?>  
 					</div>

@@ -27,7 +27,7 @@ if($row["type"] == 1){
 				<form action="../EditProductPost" method="post" enctype="multipart/form-data">
 					<div class="row m-0 p-2">
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Tiêu đề</label>
+							<label class="font-weight-bold">Mã sản phẩm</label>
 							<input type="text" value=<?php echo $row['title']; ?> name="title" class="form-control" required>
 						</div>
 						<div class="col-3 p-2">
@@ -72,7 +72,7 @@ if($row["type"] == 1){
 						</div>
 						<input name="id" class="form-control" required value="<?php echo $row['id']; ?>" type="hidden">
 						<div class="col-12">
-							<button type="submit" class="btn-lg bg float-left text-white">Save</button>
+							<button type="submit" class="btn-lg bg float-left text-white">Lưu sản phẩm</button>
 						</div>
 					</div>
 				</form>

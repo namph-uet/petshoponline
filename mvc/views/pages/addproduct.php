@@ -10,7 +10,7 @@
 				<form action="../AddProduct/AddProductPost" method="post" enctype="multipart/form-data">
 					<div class="row m-0 p-2">
 						<div class="col-3 p-2">
-							<label class="font-weight-bold">Tiêu đề</label>
+							<label class="font-weight-bold">Mã sản phẩm</label>
 							<input type="text" name="title" class="form-control" required>
 						</div>
 						<div class="col-3 p-2">
