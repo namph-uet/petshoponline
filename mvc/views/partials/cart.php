@@ -4,7 +4,7 @@
     <div style="clear: both;"></div>
     <div id="cartPrinf" style="overflow-y: auto;height: calc(100vh - 310px)">
     </div>
-    <a href="./payment/checkout">
+    <a href="./Payment/Checkout">
         <div class="btn bg font-weight-bold text-white">Thanh toán</div>
     </a>
 </div>

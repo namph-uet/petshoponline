@@ -40,7 +40,7 @@
             var imageLinkcut = imageLink.split(",",1);
 
             
-            searchResultAjax+=`<a href="./detail/page/`+data[i].id+`" style="text-decoration:none;color:black"><div class="mt-2" style="width: 100%;height: 70px;display: flex;">
+            searchResultAjax+=`<a href="./Detail/Page/`+data[i].id+`" style="text-decoration:none;color:black"><div class="mt-2" style="width: 100%;height: 70px;display: flex;">
             <div style="width: 70px;height: 70px;">
             <img src="./public/images/product/`+imageLinkcut+`" width="100%" height="100%" style="object-fit: contain">
             </div>

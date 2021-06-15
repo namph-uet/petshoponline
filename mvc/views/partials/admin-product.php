@@ -2,20 +2,20 @@
 while($row = mysqli_fetch_array($data["Post"])){
     echo '<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
     <div class="post--box p-3 bg-white shadow1" style="width: 100%;height: 310px;border-radius: 10px">
-    <a href="../detail/page/'.$row["id"].'" style="text-decoration:none;color:black">
+    <a href="../Detail/Page/'.$row["id"].'" style="text-decoration:none;color:black">
     <div class="prinfImage'.$row["id"].'" style="width: 100%;height: 170px;background-image: url(../public/images/background/'.$row["background"].'.jpg);background-size: 100% 100%;background-repeat: no-repeat;border-radius: 10px;">
     </div>
     </a>
     <p class="font-weight-bold mt-3 mb-0" style="font-size: 110%">'.$row["name"].'</p>
     <p class="font-weight-bold float-left" style="font-size: 130%">'. number_format($row["price"]).'    vnd</p>
     <p class="font-weight-bold" style="font-size: 130%; margin-left: 150px">  Số lượng: '.$row["quantity"].'</p>
-    <form action="../product/deleteProduct" method="post">
+    <form action="../Product/DeleteProduct" method="post">
     <button type="submit" class="btn btn-warning float-right text-center ml-1">
     <i class="fa fa-trash text-white" aria-hidden="true"></i>
     <input value="'.$row["id"].'" name="id" style="display:none">
     </button>
     </form>
-    <a href="../edit/page/'.$row["id"].'" style="text-decoration:none;color:black">
+    <a href="../Edit/Page/'.$row["id"].'" style="text-decoration:none;color:black">
     <div class="btn btn-danger float-right text-center">
     <i class="fa fa-pencil " aria-hidden="true"></i>
     </div>

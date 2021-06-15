@@ -47,7 +47,7 @@ $row = mysqli_fetch_array($data["Detail"]);
 				<div style="clear: both;"></div>
 
 				<div onclick="addToCart(<?php echo $row['id']; ?>,`<?php echo $row['name']; ?>`,`<?php echo $row['image']; ?>`,<?php echo $row['price']; ?>)" class="btn bg mt-3 text-white float-right ml-2"><i class="fa fa-shopping-basket text-white " aria-hidden="true"></i></div>
-				<a href="../../payment/checkout">
+				<a href="../../Payment/Checkout">
 					<div class="btn bg mt-3 text-white float-right">Mua<i class="fa fa-hand-paper-o ml-1" aria-hidden="true"></i></div>
 				</a>
 				<div style="clear: both;"></div>

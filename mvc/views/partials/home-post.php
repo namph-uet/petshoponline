@@ -4,7 +4,7 @@ while($row = mysqli_fetch_array($data["Post"])){
     
     echo '<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
     <div class="post--box p-3 bg-white shadow1" style="width: 100%;height: 310px;border-radius: 10px">
-    <a href="./detail/page/'.$row["id"].'" style="text-decoration:none;color:black">
+    <a href="./Detail/Page/'.$row["id"].'" style="text-decoration:none;color:black">
     <div class="prinfImage'.$row["id"].'" style="width: 100%;height: 170px;background-image: url(./public/images/background/'.$row["background"].'.jpg);background-size: 100% 100%;background-repeat: no-repeat;border-radius: 10px;">
     </div>
     </a>
