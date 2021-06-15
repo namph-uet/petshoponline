@@ -1,7 +1,7 @@
 <div class="container" style="padding-top: 100px">
 	<div style="width: 100%;">
 		<p class="font-weight-bold ml-2" style="font-size: 150%">Thanh toán</p>
-		<form action="../payment/info" method="post">
+		<form action="../Payment/Info" method="post">
 			<div class="row m-0">
 				<div class="col-12 col-md-9 p-0">
 					<p class="font-weight-bold mb-0 ml-2">Thông tin khách hàng</p>
