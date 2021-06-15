@@ -29,7 +29,7 @@
 				$("#status--login").show();
 				$("#status--login").text("Email hoặc mật khẩu sai");
 			}else{
-				window.location.assign("../product/productManage");
+				window.location.assign("../Product/ProductManage");
 			}
 			
 		})
