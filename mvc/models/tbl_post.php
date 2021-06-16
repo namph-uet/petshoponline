@@ -54,8 +54,7 @@ class tbl_post extends DB{
 	}
 
 	public function getPostName($id) {
-		$getQuantityQuery = "SELECT name FROM tbl_post WHERE id=$id";
-		echo $getQuantityQuery;
+		$getQuantityQuery = "SELECT name FROM tbl_post WHERE id='$id'";
 		$sqlResult = mysqli_query($this->con, $getQuantityQuery);
 		
 		$name = "";
