@@ -38,48 +38,48 @@ class Payment extends Controller{
 		$quantity_order =  $_POST["order-quantity"];
 
 		$InsertToDb = $GetModel->WriteInfo($name, $phone, $address,$note,$method,$infocart,$total,$postId, $quantity_order);
-// 		if($InsertToDb != true) header( "Location: ../OutofStock" );
-// 		else if($method == 1) {
-// 			$endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
+		if($InsertToDb != true) header( "Location: ../OutofStock" );
+		else if($method == 1) {
+			$endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
 
 
-// 			$partnerCode = "MOMOAD8820210602";
-// 			$accessKey = "z442kd73DE3uP9Kp";
-// 			$secretKey = "A0oh3FXxmOJTkRNMFChD74eqQJw22L5g";
-// 			$orderInfo = "Thanh toán qua MoMo";
-// 			$amount = $total;
-// 			$orderId = time() ."";
-// 			$returnUrl = "https://hieuthuoc3chiem.herokuapp.com/";
-// 			$notifyurl = "https://hieuthuoc3chiem.herokuapp.com/paymomo/ipn_momo.php";
-// 			// Lưu ý: link notifyUrl không phải là dạng localhost
-// 			$extraData = "merchantName=MoMo Partner";
+			$partnerCode = "MOMOAD8820210602";
+			$accessKey = "z442kd73DE3uP9Kp";
+			$secretKey = "A0oh3FXxmOJTkRNMFChD74eqQJw22L5g";
+			$orderInfo = "Thanh toán qua MoMo";
+			$amount = $total;
+			$orderId = time() ."";
+			$returnUrl = "https://hieuthuoc3chiem.herokuapp.com/";
+			$notifyurl = "https://hieuthuoc3chiem.herokuapp.com/paymomo/ipn_momo.php";
+			// Lưu ý: link notifyUrl không phải là dạng localhost
+			$extraData = "merchantName=MoMo Partner";
 
-// 			$requestId = time() . "";
-// 			$requestType = "captureMoMoWallet";
-// 			//before sign HMAC SHA256 signature
-// 			$rawHash = "partnerCode=" . $partnerCode . "&accessKey=" . $accessKey . "&requestId=" . $requestId . "&amount=" . $amount . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&returnUrl=" . $returnUrl . "&notifyUrl=" . $notifyurl . "&extraData=" . $extraData;
-// 			$signature = hash_hmac("sha256", $rawHash, $secretKey);
-// 			$data = array('partnerCode' => $partnerCode,
-// 				'accessKey' => $accessKey,
-// 				'requestId' => $requestId,
-// 				'amount' => $amount,
-// 				'orderId' => $orderId,
-// 				'orderInfo' => $orderInfo,
-// 				'returnUrl' => $returnUrl,
-// 				'notifyUrl' => $notifyurl,
-// 				'extraData' => $extraData,
-// 				'requestType' => $requestType,
-// 				'signature' => $signature);
-// 			$result = execPostRequest($endpoint, json_encode($data));
-// 			$jsonResult = json_decode($result, true);  // decode json
+			$requestId = time() . "";
+			$requestType = "captureMoMoWallet";
+			//before sign HMAC SHA256 signature
+			$rawHash = "partnerCode=" . $partnerCode . "&accessKey=" . $accessKey . "&requestId=" . $requestId . "&amount=" . $amount . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&returnUrl=" . $returnUrl . "&notifyUrl=" . $notifyurl . "&extraData=" . $extraData;
+			$signature = hash_hmac("sha256", $rawHash, $secretKey);
+			$data = array('partnerCode' => $partnerCode,
+				'accessKey' => $accessKey,
+				'requestId' => $requestId,
+				'amount' => $amount,
+				'orderId' => $orderId,
+				'orderInfo' => $orderInfo,
+				'returnUrl' => $returnUrl,
+				'notifyUrl' => $notifyurl,
+				'extraData' => $extraData,
+				'requestType' => $requestType,
+				'signature' => $signature);
+			$result = execPostRequest($endpoint, json_encode($data));
+			$jsonResult = json_decode($result, true);  // decode json
 
-// 			//Just a example, please check more in there
-// 			echo $total;
-// 			echo $jsonResult['status'];
-// 			header('Location: ' . $jsonResult['payUrl']);
-// 		} 
-// 		else if($method == 2) header( "Location: ../Home" );
-// 		else header( "Location: ../home" );
+			//Just a example, please check more in there
+			echo $total;
+			echo $jsonResult['status'];
+			header('Location: ' . $jsonResult['payUrl']);
+		} 
+		else if($method == 2) header( "Location: ../Home" );
+		else header( "Location: ../home" );
 	}
 
 	function Success(){
