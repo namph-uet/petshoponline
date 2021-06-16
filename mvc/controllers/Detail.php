@@ -6,7 +6,7 @@ class Detail extends Controller{
 		$name = $GetModel ->getPostName($id);
 
 		$GetRelatePost = $GetModel ->GetRelatePost($name);
-		// $this->view("master",["Page"=>"Page","PageName"=>"Page","Detail"=>$GetDetailPage,"Relate"=>$GetRelatePost]);
+		$this->view("master",["Page"=>"Page","PageName"=>"Page","Detail"=>$GetDetailPage,"Relate"=>$GetRelatePost]);
 	}
 }
 ?>
