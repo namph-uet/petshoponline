@@ -25,7 +25,7 @@ class AddProduct extends Controller{
 		$GetModel= $this->model("tbl_post");
 		$InsertToDb = $GetModel->AddPost($title,$content,$name,$origin,$quantity,$price,$image,$background);
 		echo $image;
-// 		header( "Location: ../AddProduct/Add" );
+ 		header( "Location: ../AddProduct/Add" );
 	}
 }
 ?>
