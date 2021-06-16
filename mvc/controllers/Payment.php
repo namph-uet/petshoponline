@@ -49,8 +49,8 @@ class Payment extends Controller{
 			$orderInfo = "Thanh toán qua MoMo";
 			$amount = $total;
 			$orderId = time() ."";
-			$returnUrl = "http://localhost/shoppet/success";
-			$notifyurl = "http://localhost:8000/paymomo/ipn_momo.php";
+			$returnUrl = "https://hieuthuoc3chiem.herokuapp.com/";
+			$notifyurl = "https://hieuthuoc3chiem.herokuapp.com/paymomo/ipn_momo.php";
 			// Lưu ý: link notifyUrl không phải là dạng localhost
 			$extraData = "merchantName=MoMo Partner";
 
