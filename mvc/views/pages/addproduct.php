@@ -42,9 +42,9 @@
 						<div class="col-3 p-2">
 							<label class="font-weight-bold">Hình nền</label>
 							<select class="form-control" name="background" >
-								<option value="1.jpg">Hình nền 1</option>
-								<option value="2.jpg">Hình nền 2</option>
-								<option value="3.jpg">Hình nền 3</option>
+								<option value="1">Hình nền 1</option>
+								<option value="2">Hình nền 2</option>
+								<option value="3">Hình nền 3</option>
 							</select>
 						</div>
 						<div class="col-9 p-2">
