@@ -4,7 +4,7 @@ class Edit extends Controller{
 		$GetModel= $this->model("tbl_post");
 		$GetDetailPage = $GetModel ->GetDetailPage($id);
 		$GetRelatePost = $GetModel ->GetRelatePost(1);
-		$this->view("master",["Page"=>"Edit","PageName"=>"Edit","Detail"=>$GetDetailPage,"Relate"=>$GetRelatePost]);
+		$this->view("master",["Page"=>"Edit","PageName"=>"edit","Detail"=>$GetDetailPage,"Relate"=>$GetRelatePost]);
 	}
 
 	function EditProductPost(){
