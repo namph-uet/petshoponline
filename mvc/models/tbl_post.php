@@ -21,7 +21,7 @@ class tbl_post extends DB{
 		$qr = "INSERT INTO tbl_post (title,content,name,origin,quantity,price,image,background,active)
 		VALUES ('$title', '$content','$name','$origin','$quantity','$price','$image','$background',1)";
 		echo $qr;
-		return mysqli_query($this->con, $qr);
+// 		return mysqli_query($this->con, $qr);
 	}
 
 	public function DeleteProduct($id){
