@@ -69,10 +69,3 @@ $row = mysqli_fetch_array($data["Detail"]);
 		<?php include("./mvc/views/partials/page-relate-post.php"); ?> 
 	</div>
 </div>
-
-<script type="text/javascript">
-	function addToCart(id,name,image,price){
-		console.log('asdasdad')
-  		modal.style.display = "block";
-	}
-</script>
