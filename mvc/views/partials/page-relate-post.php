@@ -29,8 +29,6 @@ while($row = mysqli_fetch_array($data["Relate"])){
 
     <script type="text/javascript">
         function addToCart(id,name,image,price){
-            console.log('asdasdad')
-  		    modal.style.display = "block";
             var cart =JSON.parse(localStorage.getItem('cart'));
             console.log(id,name,image,price);
             var checkCart=0;
