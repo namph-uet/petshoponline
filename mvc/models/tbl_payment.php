@@ -34,7 +34,7 @@ class tbl_payment extends DB{
 				mysqli_query($this->con, $updatePostQuery);
 	
 			}
-			
+			mysqli_query($this->con, $qr);
 			return true;
 		}
 		
